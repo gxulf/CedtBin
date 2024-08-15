@@ -1,0 +1,4 @@
+./data/CAMI/vamb/airways/contigs.fna
+./data/CAMI/vamb/gi/contigs.fna
+./data/CAMI/vamb/skin/contigs.fna
+./data/CAMI/vamb/urog/contigs.fna
