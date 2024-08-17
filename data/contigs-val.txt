@@ -1,1 +1,1 @@
-./data/CAMI/vamb/oral/contigs.fna
+./data/CAMI/
