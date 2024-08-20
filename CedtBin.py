@@ -17,7 +17,7 @@ from sklearn_extra.cluster import KMedoids
 import pickle
 import csv
 import itertools
-from evaluate import GenomeKmerDataset, CedtBin
+from train import GenomeKmerDataset, CedtBin
 import argparse
 import psutil
 import pathlib
