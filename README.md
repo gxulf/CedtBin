@@ -27,10 +27,23 @@ pip install pytorch_lightning==1.5.1
 
 Pre-train
 ===
-We use the metagenomic data in FASTA format as the input of CedtBin, modify the location of the dataset in the `train.py` script, and then run the script to learn and train contigs. The learned pre-trained model can be used for the new metagenomic dataset to obtain its encoding representation.
+We use the metagenomic data (FASTA format) to be trained as the input of CedtBin, modify the location of the dataset in the `train.py` script, and then run the script to learn and train contigs. The learned pre-trained model can be used for the new metagenomic dataset to obtain its encoding representation.
 ```
 cd CedtBin
 ./train.py
 ```
 
+Binning
+===
+We use the new metagenomic data (FASTA format) to be binned as the input of CedtBin, and modify the location of the corresponding dataset in the script `CedtBin.py`. And load the pre-trained model. After running, the script will use the pre-trained model to encode the metagenomic dataset and process the tetranucleotide frequency using the non-negative matrix decomposition algorithm. Before the DBSCAN algorithm is clustered, the script `kdistance.py` will be called to use the Annoy algorithm to determine the relevant parameters. Finally, the binning results are obtained.
+```
+cd CedtBin
+./CedtBin.py
+```
+
+Reference
+===
+* [DNABERT](https://github.com/jerryji1993/DNABERT)
+* [VAMB](https://github.com/RasmussenLab/vamb)
+* [Huggingface's Transformers](https://github.com/huggingface/transformers)
 
