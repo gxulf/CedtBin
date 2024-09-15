@@ -1,6 +1,6 @@
 CedtBin
 ===
-CedtBin is a metagenome binning tool that uses the BERT model to train on a metagenome dataset to obtain its encoding representation and concatenate it with the decomposed tetranucleotide frequencies as the final binning feature. In terms of clustering methods, CedtBin uses the Annoy algorithm based on the DBSCAN algorithm to determine relevant parameters and improve the binning effect.
+CedtBin is a metagenome binning tool that uses the BERT model to train on a metagenome dataset to obtain its encoding representation and concatenate it with the decomposed tetranucleotide frequencies as the final binning feature. In terms of clustering methods, CedtBin uses the Annoy algorithm and grid search strategy based on the DBSCAN algorithm to determine relevant parameters and improve the effect of binning.
 
 Environment setup
 ===
