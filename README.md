@@ -46,4 +46,5 @@ Reference
 * [DNABERT](https://github.com/jerryji1993/DNABERT)
 * [VAMB](https://github.com/RasmussenLab/vamb)
 * [Huggingface's Transformers](https://github.com/huggingface/transformers)
+* [Annoy](https://github.com/spotify/annoy)
 
