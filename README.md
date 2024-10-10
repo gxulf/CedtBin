@@ -22,7 +22,7 @@ pip install umap-learn
 pip install numpy
 pip install scikit-learn matplotlib 
 ...
-pip install pytorch_lightning==1.5.1
+pip install pytorch_lightning
 ```
 
 Pre-train
